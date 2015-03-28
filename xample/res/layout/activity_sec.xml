@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:orientation="vertical"
+            
+            >
+              
+          
+  <!--   <ScrollView 
+        android:layout_width="fill_parent"
+         android:layout_height="fill_parent" 
+         android:layout_below="@+id/imageView1" >
+          <LinearLayout 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:orientation="vertical" >
+
+
+ -->
+  <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:choiceMode="multipleChoice"    
+                    
+        >
+  </ListView>
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="84dp" >
+
+  </ListView>
+              
+
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" 
+        android:text="contacts1"
+        />
+    
+
+    
+    
+    <EditText
+              android:id="@+id/et"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent">
+         </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="done" 
+        android:onClick="db"/>
+    
+ <!--    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:ems="10" >
+
+       
+    </AutoCompleteTextView>-->
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:gravity="center"
+        android:text="TextView" />
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:gravity="center"
+        android:text="TextView" />
+    
+  <!--   </LinearLayout>
+    </ScrollView>
+     -->
+
+</LinearLayout>
